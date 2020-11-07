@@ -1,4 +1,6 @@
 ﻿using System;
+using NetCPPLibrary;
+
 
 namespace SharpMathClient
 {
@@ -6,7 +8,8 @@ namespace SharpMathClient
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var a = new NetCPPLibrary.CPPClass();
+            Console.WriteLine($"{a.Constant}");
         }
     }
 }

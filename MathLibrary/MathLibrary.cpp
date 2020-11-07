@@ -54,3 +54,8 @@ unsigned fibonacci_index()
 {
     return index_;
 }
+
+unsigned long Factorial(int a)
+{
+    return a <= 1 ? a : a * Factorial(a - 1);
+}

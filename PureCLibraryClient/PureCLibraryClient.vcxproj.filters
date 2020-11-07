@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FactorialFunction.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="FactorialFunction.cpp">
+    <ClCompile Include="PureCLibraryClient.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
