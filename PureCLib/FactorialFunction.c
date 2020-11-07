@@ -1,8 +1,8 @@
 ﻿// pch.cpp: файл исходного кода, соответствующий предварительно скомпилированному заголовочному файлу
 
-#include "pch.h"
+#include "FactorialFunction.h"
 
-int factorial(int a)
+int Factorial(int a)
 {
 	return 1;
 }

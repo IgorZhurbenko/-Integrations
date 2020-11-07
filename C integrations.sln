@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibrary", "MathLibrary\MathLibrary.vcxproj", "{761C1046-614A-4619-83F8-B6349A6CE7C2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLibraryClient", "MathLibraryClient\MathLibraryClient.vcxproj", "{C83DF220-4C0E-4069-AB71-D52F69032260}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA58A36F-7B22-46F9-BFB0-D1CB5EB5C3A8} = {BA58A36F-7B22-46F9-BFB0-D1CB5EB5C3A8}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpMathClient", "SharpMathClient\SharpMathClient.csproj", "{0F6D583E-6941-4363-81D5-28BCB11CE7BD}"
 EndProject
